@@ -1,7 +1,3 @@
-{% extends 'base.html' %}
-
-{% from 'bootstrap5/form.html' import render_form %}
-
-{% block content %}
-{{ render_form(form) }}
+{% extends 'base.html' %} {% from 'bootstrap5/form.html' import render_form %} {% block content %}
+<div class="container-xl py-5">{{ render_form(form) }}</div>
 {% endblock %}
